@@ -10,7 +10,7 @@ pstmt = conn.prepareStatement(sql);
 pstmt.setString(1, chkID);
 rs = pstmt.executeQuery();
 
-String msg = "이미 사용중인 아이디 입니다.<br /> 다른 아이디를 검색하세요.";
+String msg = "이미 사용중인 아이 디 입니다.<br /> 다른 아이디를 검색하세요.";
 String dis = " disabled = 'disabled' ";
 
 if (!rs.next()) {		
